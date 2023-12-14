@@ -1,0 +1,29 @@
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.closeButton {
+    padding: 0.2rem;
+    border: 1px #47C2BB solid;
+    color: #47C2BB;
+}
+
+.subContainer {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.title {
+    font-weight: 600;
+    width: 5rem;
+}
+
+.value {
+    padding-left: 3rem;
+}
+
+.dialog{
+    border-radius: 10px;
+    background: linear-gradient(91deg, rgba(222, 248, 248, 0.32) 23.22%, rgba(222, 248, 248, 0.00) 99.28%);
+}

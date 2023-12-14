@@ -1,0 +1,26 @@
+.paper {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 40rem;
+    background: linear-gradient(91deg, rgba(222, 248, 248, 0.32) 23.22%, rgba(222, 248, 248, 0.00) 99.28%);
+    min-height: 40rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add {
+    border-radius: 0.5rem;
+    width: 8rem;
+}
+
+.empty {
+    margin: 2rem auto;
+    text-align: center;
+    border: 1px solid rgb(45, 106, 117);
+    border-radius: 0.5rem;
+    padding: 3rem;
+}

@@ -1,0 +1,38 @@
+.container {
+    border: 1px solid rgb(45, 106, 117);
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7cfbb;
+}
+
+.iscomplete {
+    background-color: #b5efec;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.subContainer {
+    display: flex;
+}
+
+.titleContainer {
+    min-width: 70%;
+}
+
+.titleContainer:hover {
+    cursor: pointer;
+}
+
+.complete {
+    color: green;
+    border: 1px solid green;
+    height: 1.75rem;
+    width: 1.75rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,44 @@
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.closeButton {
+    padding: 0.2rem;
+    border: 1px #47C2BB solid;
+    color: #47C2BB;
+}
+
+.formItem {
+    margin-top: 1rem;
+}
+
+.formLabel {
+    font-weight: 600;
+}
+
+.formInput {
+    margin-top: 0.3rem !important;
+    background: #FFF;
+}
+
+.validation {
+    color: red;
+}
+
+.buttonContainer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton {
+    border-radius: 0.5rem;
+    width: 10rem;
+}
+
+.dialog{
+    border-radius: 10px;
+    background: linear-gradient(91deg, rgba(222, 248, 248, 0.32) 23.22%, rgba(222, 248, 248, 0.00) 99.28%);
+}
